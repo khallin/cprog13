@@ -1,7 +1,7 @@
 #include "creature.h"
 
 
-class Human : Creature
+class Human : Actor
 {
 public:
 	Human(arguments);

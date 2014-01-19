@@ -1,4 +1,4 @@
-class Creature
+class Actor
 {
 	int life,
 		strength,
@@ -9,8 +9,8 @@ class Creature
 
 
 public:
-	Creature(arguments);
-	~Creature();
+	Actor(arguments);
+	~Actor();
 
 	void change_life(short);
 	
